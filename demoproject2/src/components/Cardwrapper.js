@@ -1,5 +1,6 @@
 import Card from "./Card";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Cardwrapper(params) {
   const [People, setPeople] = useState([]);
@@ -32,6 +33,7 @@ export default function Cardwrapper(params) {
           filterPeople(el.target.value);
         }}
       ></input>
+      <Link to="/card">to card</Link>
       <div class="Wrapper">
         {filteredpeople.map((element) => {
           return (
