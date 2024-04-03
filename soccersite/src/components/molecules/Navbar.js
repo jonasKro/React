@@ -12,7 +12,7 @@ export default function Navbar({ logolink }) {
 
       <div className={styles.linkwrapper}>
         <Headerlink linkto="/Games" text="Spiele"></Headerlink>
-        <Headerlink linkto="/Homepg" text="Tabelle"></Headerlink>
+        <Headerlink linkto="/" text="Tabelle"></Headerlink>
       </div>
     </div>
   );

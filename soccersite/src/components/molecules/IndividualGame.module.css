@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  margin-top: 50px;
+  background-color: #999999;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: lalezar;
+  color: white;
+  font-size: 36px;
+  width: 1282px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  font-size: 70px;
+}
+
+.teamlogo {
+  scale: 1;
+  height: 180px;
+  margin: 20px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
