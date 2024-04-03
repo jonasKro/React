@@ -1,0 +1,10 @@
+.wrapper {
+  background-color: #bcbcbc;
+}
+
+.body {
+  background-color: #bcbcbc;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

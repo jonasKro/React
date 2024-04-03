@@ -1,9 +1,13 @@
 .Navbar {
+  width: 100%;
   background-color: #a64646;
   height: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
 }
 
 .navlink {
